@@ -2,10 +2,8 @@
 import nltk
 from nltk import word_tokenize
 from nltk.corpus.reader.plaintext import PlaintextCorpusReader
-import matplotlib.pyplot as plt
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
-#from sklearn.feature_extraction.text import TfidfVectorizer
 
 #set up the corpuses
 texts = PlaintextCorpusReader('./texts/', '.*\.txt')
